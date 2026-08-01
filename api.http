@@ -1,0 +1,14 @@
+### Greet the user
+GET http://localhost:3000/
+
+### Get all books
+GET http://localhost:3000/api/books
+
+### Get featured books
+GET http://localhost:3000/api/books/featured
+
+### Get a single book by ID
+GET http://localhost:3000/api/books/4
+
+### no endpoint
+GET http://localhost:3000/api/books/999
